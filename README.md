@@ -1,5 +1,5 @@
-[!first](./Image/first.PNG)
+![first](./Image/first.PNG)
 
-[!second](./Image/second.PNG)
+![second](./Image/second.PNG)
 
-[!third](./Image/third.PNG)
+![third](./Image/third.PNG)
