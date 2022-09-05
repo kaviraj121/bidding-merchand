@@ -1,0 +1,81 @@
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    position: absolute;
+    top: 150px;
+    left: 70px;
+}
+
+
+.heading{
+    position: absolute;
+    top: 150px;
+    
+}
+
+.heading > h1{
+    font-size: 70px;
+}
+
+.paragraph{
+    position: absolute;
+    top: 250px;
+}
+
+@media screen and (max-width: 1239px){
+    .heading>h1 {
+            font-size: 60px;
+        }
+
+                .image {
+                    position: absolute;
+                    top: 150px;
+                    left: 119px;
+                }
+}
+
+@media screen and (max-width: 1191px){
+    .image {
+            position: absolute;
+            top: 150px;
+            left:32px;
+        }
+}
+
+@media screen and (max-width: 991px) {
+    .image {
+        position: absolute;
+        top: 150px;
+        left: -90px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.image {
+        position: absolute;
+        top: 150px;
+        left: 25px;
+    }
+
+
+    .heading {
+        position: absolute;
+        top: 150px;
+        left: 150px;
+
+    }
+
+    .heading>h1 {
+        font-size: 50px;
+    }
+
+    .paragraph {
+        position: absolute;
+        top: 250px;
+        left: 155px;
+    }
+}

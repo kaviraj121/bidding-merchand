@@ -1,0 +1,104 @@
+.product{
+    position: relative;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    background-color: rgb(214, 212, 212);
+    
+}
+
+.flex-container{
+    position: absolute;
+    top: 370px;
+    
+    
+    background-color: rgb(214, 212, 212);
+    
+}
+
+
+
+.body1{
+    position: relative;
+    width: 380px;
+}
+
+.heading1{
+    position: absolute;
+    width: 380px;
+    top: 25px;
+}
+
+.subheading{
+    position: absolute;
+    top: 140px;
+    color: rgb(189, 190, 191);
+}
+
+.priceicon-image{
+    position: absolute;
+    top: 170px;
+}
+
+.online-price{
+    position: absolute;
+        top: 173px;
+        left: 40px;
+}
+
+.quantity{
+    position: absolute;
+        top: 230px;
+}
+
+.anchor{
+    position: absolute;
+        top: 270px;
+        
+}
+
+.status-container{
+    position: relative;
+    margin-left: 50px;
+}
+
+.status{
+    position: absolute;
+    width: 60px;
+    top: 25px;
+}
+
+.status-icon{
+    position: absolute;
+    width: 30px;
+    top: 25px;
+    left: 80px;
+}
+
+.time-remaining{
+    position: absolute;
+    top: 80px;
+}
+
+.time-remaining-data{
+    position: absolute;
+    top: 120px;
+    color: red;
+}
+
+.bid-placed{
+        position: absolute;
+        top: 220px;
+        color: rgb(189, 190, 191);
+        width: 150px;
+        
+       
+}
+
+.bid-placed-data{
+       position: absolute;
+    top: 220px;
+    left: 150px;
+    color: green;
+
+}
